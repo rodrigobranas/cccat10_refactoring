@@ -35,3 +35,8 @@
 8 - classe ou arquivo grande
 
 * extrair classe
+
+9 - inveja de dados / longa cadeia de mensagens
+
+* extrair um método
+* mover um método para outra classe

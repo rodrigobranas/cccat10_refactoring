@@ -20,4 +20,12 @@ export default class Segment {
 	isOvernight () {
 		return this.date.getHours() >= 22 || this.date.getHours() <= 6;
 	}
+
+	isPeakTime () {
+		return (this.date.getHours() >= 7 && this.date.getHours() <= 8) || (this.date.getHours() >= 18 && this.date.getHours() <= 19);
+	}
+
+	isFirstDay () {
+		return this.date.getDate() === 1;
+	}
 }
